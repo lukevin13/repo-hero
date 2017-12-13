@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Repo Hero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="https://lukevin13.github.io/repo-hero" class="text-clean">
+            <h1 class="title">Repo Hero</h1>
+            <p class="subtitle"><strong>Kevin Lu</strong></p>
+        </a>
+    </header>
+
+    <!-- Input Form -->
+    <section>
+        <label for="user-form">Use this form to search for a GitHub User's repositories</label>
+        <form id="user-form">
+            <input id="user-input" type="text" placeholder="GitHub Username" required/>
+            <button type="submit">
+                Submit
+            </button>
+        </form>
+    </section>
+
+    <!-- Pagination -->
+    <section>
+        <label for="pagination">Use these navigation buttons to view more repositories (Max 30 repositories per page)</label>
+        <div id="pagination">
+        </div>
+    </section>
+
+    <!-- Table for data -->
+    <section>
+        <table border="1" class="center-aligned container">
+            <caption class="left-aligned">
+                Available Repositories
+            </caption>
+            <thead>
+                <tr>
+                    <th>Repository Name</th>
+                    <th>Repository Link</th>
+                    <th>Owner Name</th>
+                    <th>Owner Avatar</th>
+                </tr>
+            </thead>
+            <tbody id="results-table"></tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

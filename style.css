@@ -1,0 +1,40 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-64 {
+    width: 64px;
+    height: auto;
+}
+
+.center-aligned {
+    text-align: center;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+.container {
+    width: 1000px;
+}
+
+.title {
+    margin-bottom: 1px;
+}
+
+.subtitle {
+    margin-top: 1px;
+}
+
+section {
+    padding-top: 6px;
+    padding-bottom: 14px;
+    border-bottom: solid 1px black;
+}
+
+.text-clean {
+    color: black;
+    text-decoration: none;
+}
