@@ -15,7 +15,7 @@ repositories, navigation buttons will become availabe for you to navigate pages.
 - '>': next page
 - '>>': last page
 
-### Moving Forward
+## Moving Forward
 - The navigation buttons are not in order. I didn't think it was too big an issue as this
   is just a quick assessment
 - Could add manual page number input for manual page navigation
